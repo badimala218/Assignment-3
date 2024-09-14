@@ -16,6 +16,14 @@ ul:first-of-type, ul:first-of-type li {
     padding: 0;
 }
 
-a, h2 {
+h2 {
+    color: #CC1C0D;
+    border: 1px solid #929CA4;
+    background-color: #DFE3E6;
+    padding: 5px 0px 5px 12px;
+    border-radius: 5px;
+}
+
+a {
     color: #CC1C0D;
 }
