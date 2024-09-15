@@ -1,6 +1,6 @@
 body {
-    width:960px;
-    margin-left:20px;
+    width: 960px;
+    margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 2em;
@@ -16,6 +16,7 @@ ul:first-of-type, ul:first-of-type li {
     padding: 0;
 }
 
+/* Heading style */
 h2 {
     border: 1px solid #929CA4;
     background-color: #DFE3E6;
@@ -27,9 +28,13 @@ a, h2 {
     color: #CC1C0D;
 }
 
+/* Float logo and bio images */
 p > img, section > img {
     float: left;
-    margin: 0 5px 0 0;
+}
+
+p > img {
+    margin-right: 5px;
 }
 
 section > img {
@@ -42,6 +47,7 @@ section > p {
     margin-top: 0;
 }
 
+/* Pricing styling */
 .pricing > div {
     width: 220px;
     border: 1px solid black;
