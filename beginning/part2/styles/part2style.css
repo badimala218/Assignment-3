@@ -17,13 +17,67 @@ ul:first-of-type, ul:first-of-type li {
 }
 
 h2 {
-    color: #CC1C0D;
     border: 1px solid #929CA4;
     background-color: #DFE3E6;
     padding: 5px 0px 5px 12px;
     border-radius: 5px;
 }
 
-a {
+a, h2 {
     color: #CC1C0D;
+}
+
+p > img, section > img {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+section > img {
+    border: 2px solid #CC1C0D;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+section > p {
+    margin-top: 0;
+}
+
+.pricing > div {
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    height: 300px;
+}
+
+.pricing > div > img {
+    padding-top: 20px;
+}
+
+div > h3 {
+    padding-top: 10px;
+}
+
+div:first-of-type > h3 {
+    border-top: 10px solid #CC1C0D;
+}
+
+div:nth-of-type(2) > h3 {
+    border-top: 10px solid #37A4A4;
+}
+
+div:nth-of-type(3) > h3 {
+    border-top: 10px solid #685288;
+}
+
+div:last-of-type > h3 {
+    border-top: 10px solid #000000;
+    margin-top: 23px;
+}
+
+div:last-of-type {
+    padding-top: 30px;
+    height: 270px;
 }
